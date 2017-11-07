@@ -9,8 +9,10 @@ body{
   background-color: CYAN;
   background-image: url(/img/Logo-Axio/axio-only-wolf.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .navbar-brand>img{
   width: 60px;
 }
+/*DELETE FROM HERE DOWN*/
