@@ -12,17 +12,13 @@ body{
   background-position: center;
 }
 
-.navbar-brand>img{
-  width: 70px;
-}
-
 .navbar-custom {
-  background-color: cyan!important;
-  height: 90px;
+  background-color: white!important;
+  height: 80px;
 }
 
 .navbar-brand>img{
-  width: 60px;
+  width: 100px;
 }
 
 .navbar-brand {
@@ -44,14 +40,14 @@ body{
     color: black;
     letter-spacing: 3px;
     line-height: 1.42857143 !important;
-    font-size: 12px;
+    font-size: 14px;
     z-index: 9999;
     margin-bottom: 0;
     font-weight: bold;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: black !important;
-    background-color:  cyan !important;
+
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
