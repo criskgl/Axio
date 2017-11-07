@@ -1,0 +1,65 @@
+/* Tooltip */
+.tooltip > .tooltip-inner {
+  background-color: #E95420;
+  color: #FFFFFF;
+  border: 1px solid #ac3911;
+  padding: 5px;
+  font-size: 16px;
+  text-align: left;
+  max-width: 300px !important;
+}
+/* Tooltip on top */
+.tooltip.bottom > .tooltip-arrow {
+  border-bottom: 5px solid #E95420;
+}
+pre {
+  outline: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+.string {
+  color: green;
+}
+.number {
+  color: darkorange;
+}
+.boolean {
+  color: blue;
+}
+.null {
+  color: magenta;
+}
+.key {
+  color: red;
+}
+ul.flip li div div.inn {
+  background-color: #E95420 !important;
+}
+.flip-clock-wrapper ul {
+  background-color: #E95420 !important;
+}
+.nav-pills > li.active > a {
+  background-color: #E95420 !important;
+}
+.nav-pills > li.active > a:hover {
+  background-color: #ac3911 !important;
+}
+.background-primary {
+  background-color: #E95420 !important;
+}
+.border-primary {
+  border-color: #E95420 !important;
+}
+.color-primary-darken {
+  color: #ac3911 !important;
+}
+.pre-help {
+  outline: 0px;
+  color: #ac3911 !important;
+}
+.pool-link:hover {
+  background: #ac3911 !important;
+}
+.pool-link {
+  color: #fff !important;
+}
