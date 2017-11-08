@@ -6,7 +6,12 @@ body{
 #particles-js
 {
   height: 100%;
-  background-color: #0d0d4c;
+  background-color: #000;
+  background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white); /* Standard syntax */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -34,6 +39,9 @@ body{
   padding: 10px;
   margin: 25px 15px 25px 0;
 }
+.nav.navbar-nav.navbar-right li a:hover{
+  text-decoration: overline;
+}
 
 .nav.navbar-nav.navbar-right li a{
     color: black;
@@ -45,12 +53,12 @@ body{
     font-weight: bold;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: black !important;
+    color: black!important;
 
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: yellow !important;
+    color: black !important;
 }
 /*DELETE FROM HERE DOWN*/
 .text {
@@ -58,18 +66,18 @@ body{
 	top: 50%;
 	right: 50%;
 	transform: translate(50%,-50%);
-	color: white;
+	color: black;
 	max-width: 90%;
 	padding: 2em 3em;
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(8, 0, 0, 0.2);
 	text-shadow: 0px 0px 2px #131415;
 	font-family: 'Megrim', cursive;
-  font-size: 30px;
 }
 h1 {
-	font-size: 2.25em;
-	font-weight: 700;
-	letter-spacing: -1px;
+	font-size: 5em;
+  font-size: 40px;
+	font-weight: 800;
+	letter-spacing: 5px;
 }
 
 a,
