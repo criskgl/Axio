@@ -98,3 +98,19 @@ a:focus {
   width: 200px;
   border-radius: 10px;
 }
+
+footer .glyphicon {
+     font-size: 50px;
+     margin-bottom: 20px;
+     color: rgba(0,0,0,0.3);
+ }
+
+ #footer-text{
+   letter-spacing: 5px;
+   font-family: megrim;
+
+ }
+ #footer-text a{
+   text-decoration: underline;
+   color: black;
+ }
