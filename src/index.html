@@ -23,7 +23,6 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#crew">CREW</a></li>
             <li><a href="#statistics">STATISTICS</a></li>
             <li><a href="#invest">INVEST</a></li>
             <li><a href="#contact">CONTACT</a></li>
@@ -37,128 +36,80 @@
     <script type="text/javascript" src="app.js"></script>
     <div class="text">
 	<h1>AXIO CRYPTO-INVESTMENT</h1>
-</div>
-<div class="row" id="statistics">
-
-  <div class="heading-title text-center">
-    <h3 class="text-uppercase">Statistics</h3>
-    <hr class="title-divider">
-
-  </div>
-
-  <div class="col-md-5 col-md-offset-1">
-    <script type="text/javascript">
-baseUrl = "https://widgets.cryptocompare.com/";
-var scripts = document.getElementsByTagName("script");
-var embedder = scripts[ scripts.length - 1 ];
-var cccTheme = {"Header":{"background":"#ffffff","displayFollowers":false},"Followers":{"color":"#ffffff","borderColor":"#ffffff"},"Data":{"infoLabelColor":"","infoValueColor":""},"Chart":{"animation":true,"fillColor":"transparent","borderColor":"#000"}};
-(function (){
-var appName = encodeURIComponent(window.location.hostname);
-if(appName==""){appName="local";}
-var s = document.createElement("script");
-s.type = "text/javascript";
-s.async = true;
-var theUrl = baseUrl+'serve/v2/coin/chart?fsym=BTC&tsym=EUR&period=6M';
-s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-embedder.parentNode.appendChild(s);
-})();
-</script>
-
-  </div>
-
-  <div class="col-md-5 col-md-offset1-">
-    <script type="text/javascript">
-baseUrl = "https://widgets.cryptocompare.com/";
-var scripts = document.getElementsByTagName("script");
-var embedder = scripts[ scripts.length - 1 ];
-var cccTheme = {"Header":{"background":"#ffffff","displayFollowers":false},"Followers":{"color":"#ffffff","borderColor":"#ffffff"},"Data":{"infoLabelColor":"","infoValueColor":""},"Chart":{"animation":true,"fillColor":"transparent","borderColor":"#000"}};
-(function (){
-var appName = encodeURIComponent(window.location.hostname);
-if(appName==""){appName="local";}
-var s = document.createElement("script");
-s.type = "text/javascript";
-s.async = true;
-var theUrl = baseUrl+'serve/v2/coin/chart?fsym=ETH&tsym=EUR&period=6M';
-s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-embedder.parentNode.appendChild(s);
-})();
-</script>
-
-  </div>
-</div>
-
-<div class="row" id="invest">
-
-  <div class="heading-title text-center">
-    <h3 class="text-uppercase">Invest</h3>
-    <hr class="title-divider">
-    <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Basic</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Invest</button>
-        </div>
-      </div>
     </div>
-    <div class="col-sm-4">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Pro</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Invest</button>
-        </div>
-      </div>
+<!--Start of statistics-->
+<div class="container-fluid">
+  <div class="row section" id="statistics">
+
+    <div class="heading-title text-center">
+      <h3 class="text-uppercase">Statistics</h3>
+      <hr class="title-divider">
+
     </div>
-   <div class="col-sm-4">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Premium</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Invest</button>
-        </div>
-      </div>
+
+    <div class="col-md-5 col-md-offset-1">
+      <script type="text/javascript">
+  baseUrl = "https://widgets.cryptocompare.com/";
+  var scripts = document.getElementsByTagName("script");
+  var embedder = scripts[ scripts.length - 1 ];
+  var cccTheme = {"Header":{"background":"#ffffff","displayFollowers":false},"Followers":{"color":"#ffffff","borderColor":"#ffffff"},"Data":{"infoLabelColor":"","infoValueColor":""},"Chart":{"animation":true,"fillColor":"transparent","borderColor":"#000"}};
+  (function (){
+  var appName = encodeURIComponent(window.location.hostname);
+  if(appName==""){appName="local";}
+  var s = document.createElement("script");
+  s.type = "text/javascript";
+  s.async = true;
+  var theUrl = baseUrl+'serve/v2/coin/chart?fsym=BTC&tsym=EUR&period=6M';
+  s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+  embedder.parentNode.appendChild(s);
+  })();
+  </script>
+
+    </div>
+
+    <div class="col-md-5 col-md-offset1-">
+      <script type="text/javascript">
+  baseUrl = "https://widgets.cryptocompare.com/";
+  var scripts = document.getElementsByTagName("script");
+  var embedder = scripts[ scripts.length - 1 ];
+  var cccTheme = {"Header":{"background":"#ffffff","displayFollowers":false},"Followers":{"color":"#ffffff","borderColor":"#ffffff"},"Data":{"infoLabelColor":"","infoValueColor":""},"Chart":{"animation":true,"fillColor":"transparent","borderColor":"#000"}};
+  (function (){
+  var appName = encodeURIComponent(window.location.hostname);
+  if(appName==""){appName="local";}
+  var s = document.createElement("script");
+  s.type = "text/javascript";
+  s.async = true;
+  var theUrl = baseUrl+'serve/v2/coin/chart?fsym=ETH&tsym=EUR&period=6M';
+  s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+  embedder.parentNode.appendChild(s);
+  })();
+  </script>
+
     </div>
   </div>
-  </div>
-
 </div>
+
+
+
+<!--Start of invest-->
+<div class="container-fluid">
+  <div class="row" id="invest">
+
+    <div class="heading-title text-center">
+      <h3 class="text-uppercase">Invest</h3>
+      <hr class="title-divider">
+    
+    </div>
+
+  </div>
+</div>
+
+
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p id="footer-text">Made with love by <a href="https://twitter.com/_HackRis_" title="HackRis">Hack Risss</a></p>
+  <p id="footer-text">Made with <span class="glyphicon glyphicon-heart" id="heart-footer"></span> by <a href="https://twitter.com/_HackRis_" title="HackRis">Hack Risss</a></p>
 </footer>
 
   </body>

@@ -60,7 +60,6 @@ body{
     border-color: transparent;
     color: black !important;
 }
-/*DELETE FROM HERE DOWN*/
 .text {
 	position: absolute;
 	top: 50%;
@@ -91,6 +90,12 @@ a:focus {
 	color: $link-hover;
 }
 
+/*section & title-divider*/
+.section{
+  padding-bottom: 100px;
+  padding-top: 75px;
+}
+
 .title-divider{
   border-top: 4px solid #ffffff;
   border-bottom: 1px solid rgba(0, 4, 0, 0.2);
@@ -98,12 +103,33 @@ a:focus {
   width: 200px;
   border-radius: 10px;
 }
+/*Team*/
+.team-member{
+  width: 300px
+}
+#crewmember{
+  filter: blur(7px);
+  width: 100%;
+}
+img:hover{
+  filter: blur(2px);
+  width: 100%;
+}
 
+.desk{
+  text-align: center;
+  font-family: megrim;
+  letter-spacing: 3px;
+}
+
+
+/*Footer*/
 footer .glyphicon {
      font-size: 50px;
      margin-bottom: 20px;
      color: rgba(0,0,0,0.3);
  }
+
 
  #footer-text{
    letter-spacing: 5px;
@@ -114,4 +140,8 @@ footer .glyphicon {
    text-decoration: underline;
    color: black;
 
+ }
+ #heart-footer{
+   color: #f00;
+   font-size: 20px;
  }
