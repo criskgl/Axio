@@ -1,4 +1,5 @@
 $(".faq-q").click( function () {
+
   var container = $(this).parents(".faq-c");
   var answer = container.find(".faq-a");
   var trigger = container.find(".faq-t");
