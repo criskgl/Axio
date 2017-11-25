@@ -7,7 +7,7 @@ body{
 {
   height: 100%;
   background-color: #000;
-  background: red; /* For browsers that do not support gradients */
+  background: grey; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
@@ -185,7 +185,7 @@ footer .glyphicon {
 
 .faq-q {
   cursor: pointer;
-  font-size: 1.5em;
+  font-size: 3em;
   font-weight: 100;
 }
 
@@ -193,7 +193,11 @@ footer .glyphicon {
   clear: both;
   color: #666;
   display: none;
-  padding-left: 1.5em;
+  padding-left: 1em;
+}
+
+.faq-a p{
+  font-size: 2em;
 }
 
 .socket{
@@ -572,15 +576,16 @@ html {
 }
 
 .promos {
-  width: 800px;
+  width: 250px;
   margin: 0 auto;
   margin-top: 50px;
 }
 .promo {
-  width: 250px;
+  width: 500px;
   background: #0F1012;
   color: #f9f9f9;
-  float: left;
+  float:left;
+  margin-left: 0px;
 }
 .deal {
   padding: 10px 0 0 0;
@@ -603,6 +608,11 @@ html {
   text-align: center;
   font-size: 23px;
   padding: 17px 0 17px 0;
+}
+.promo.deal{
+  display: block;
+  width: 250px;
+  margin: 15px 0 10px 0;
 }
 ul {
   display: block;
@@ -637,7 +647,8 @@ button {
 
 #promobox{
    margin: auto;
-   margin-left: 175px;
+   margin-left: 0px;
+   text-align: center;
 }
 
 #coinbadge-eth{
@@ -651,6 +662,36 @@ button {
   display: inline-block;
 }
 #marcocoinbadge{
-  height: 200px;
+  height: 100px;
   width: auto;
+}
+
+
+
+/*Diamond Mail*/
+.maily {
+  background-color: black;
+}
+.dimond {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  letter-spacing: 15px;
+  font-size: 25px;
+  color:white;
+  text-align: center;
+  border-width:2px 0;
+  position:relative;
+  display:block;
+  padding:0.75em 0 0.75em 0.5em;
+  margin-left:1.6em;
+  margin-right:1.6em;
+}
+
+#logo-contact-box {
+  width: 10px;
+}
+
+#logo-contact{
+  width: 100%;
+  height: auto;
 }
